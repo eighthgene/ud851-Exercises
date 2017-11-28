@@ -16,6 +16,7 @@
 package com.example.android.datafrominternet.utilities;
 
 import android.net.Uri;
+import android.os.StrictMode;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -71,6 +72,8 @@ public class NetworkUtils {
      * @throws IOException Related to network and stream reading
      */
     public static String getResponseFromHttpUrl(URL url) throws IOException {
+        //StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitNetwork().build();
+        //StrictMode.setThreadPolicy(policy);
         HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
         try {
             InputStream in = urlConnection.getInputStream();
