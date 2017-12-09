@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
     // COMPLETED (8) Use getMenuInflater().inflate to inflate the menu
     // COMPLETED (9) Return true to display this menu
 
-    // TODO (10) Override onOptionsItemSelected
+    // COMPLETED (10) Override onOptionsItemSelected
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
