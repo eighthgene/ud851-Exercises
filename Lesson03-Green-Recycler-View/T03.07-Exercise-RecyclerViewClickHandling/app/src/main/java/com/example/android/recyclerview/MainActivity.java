@@ -112,7 +112,9 @@ public class MainActivity extends AppCompatActivity implements GreenAdapter.List
         if (mToast != null){
             mToast.cancel();
         }
-        Toast.makeText(this, "Item #" + index + " clicked.", Toast.LENGTH_LONG).show();
+        String toastMessage = "Item #" + index + " clicked.";
+        mToast = Toast.makeText(this, toastMessage, Toast.LENGTH_LONG);
+        mToast.show();
     }
 
     // COMPLETED (11) In the beginning of the method, cancel the Toast if it isn't null
