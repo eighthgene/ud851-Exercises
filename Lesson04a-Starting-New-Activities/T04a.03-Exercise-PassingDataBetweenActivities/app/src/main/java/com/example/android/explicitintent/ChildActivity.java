@@ -16,6 +16,7 @@
 package com.example.android.explicitintent;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
@@ -42,7 +43,6 @@ public class ChildActivity extends AppCompatActivity {
             // COMPLETED (6) If the Intent contains the correct extra, use it to set the TextView text
             mDisplayText.setText(textEntryMain);
         }
-
 
     }
 }
