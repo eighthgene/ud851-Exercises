@@ -131,6 +131,4 @@ public class MainActivity extends AppCompatActivity {
         // COMPLETED (8) call insert to run an insert query on TABLE_NAME with the ContentValues created
         return mDb.insert(WaitlistContract.WaitlistEntry.TABLE_NAME, null, cv);
     }
-
-
 }
