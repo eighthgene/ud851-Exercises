@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import com.example.android.waitlist.data.WaitlistContract.*;
 
 // COMPLETED (1) extend the SQLiteOpenHelper class
-public class WaitlistDbHelper extends SQLiteOpenHelper {
+public class  WaitlistDbHelper extends SQLiteOpenHelper {
 
     // COMPLETED (2) Create a static final String called DATABASE_NAME and set it to "waitlist.db"
     // The database name

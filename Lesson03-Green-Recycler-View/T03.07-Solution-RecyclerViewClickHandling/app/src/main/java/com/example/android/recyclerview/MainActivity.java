@@ -17,10 +17,12 @@ package com.example.android.recyclerview;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.GridLayout;
 import android.widget.Toast;
 
 // COMPLETED (8) Implement GreenAdapter.ListItemClickListener from the MainActivity
@@ -66,6 +68,7 @@ public class MainActivity extends AppCompatActivity
          * There are other LayoutManagers available to display your data in uniform grids,
          * staggered grids, and more! See the developer documentation for more details.
          */
+
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         mNumbersList.setLayoutManager(layoutManager);
 
