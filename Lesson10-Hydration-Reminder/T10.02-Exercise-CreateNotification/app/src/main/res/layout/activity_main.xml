@@ -86,4 +86,11 @@
 
     </RelativeLayout>
     <!-- TODO (14) Add a button for testing your notification with an onClick method called testNotification -->
+    <Button
+        android:id="@+id/bt_test_notification"
+        android:text="test notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="testNotification" />
 </LinearLayout>
